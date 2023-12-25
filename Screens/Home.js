@@ -9,8 +9,7 @@ const Home = () => {
     const database = getDatabase(app);
     const navigation = useNavigation();
 
-const hamza = useRef();
-console.log(hamza);
+
     const viewPost = (item) => {
         navigation.navigate('viewPost', item);
     };
